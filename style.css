@@ -179,3 +179,17 @@ input
 	position: relative;
 	flex-direction: row;
 }
+.filter
+{
+	transform: translateX(-100%);
+	transition: all .5s;
+}
+
+#openFilter
+{
+		transform: translateX(250%);
+}
+#closeFilter
+{
+
+}
