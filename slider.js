@@ -109,6 +109,29 @@ let allSmarts = document.querySelectorAll('[ram=\''+VofRAM+'\']');
 
 	}
 }
+
+function romFilter(rom)
+{
+let VofROM = rom.getAttribute('ROMS');
+let allSmarts = document.querySelectorAll('[rom=\''+VofROM+'\']');
+	if(rom.checked == true)
+	{
+		for(let i = 0; i < allSmarts.length; i++)
+		{
+			allSmarts[i].style.display = "flex";
+		}
+	}
+	else
+	{
+		for(let i = 0; i < allSmarts.length; i++)
+		{
+			allSmarts[i].style.display = "none";
+		}
+
+	}
+}
+
+
 let filterM = document.querySelector('.filter');
 let btnOpen;
 let btnClose = document.querySelector('#closeFilter');;
