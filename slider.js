@@ -109,3 +109,24 @@ let allSmarts = document.querySelectorAll('[ram=\''+VofRAM+'\']');
 
 	}
 }
+let filterM = document.querySelector('.filter');
+let btnOpen;
+let btnClose = document.querySelector('#closeFilter');;
+function openMenu(btn)
+{	
+		if(btnClose.style.display == 'none')
+		{
+			btnClose.style.display = "flex";
+		}
+		filterM.style.transform = 'translateX(0%)';
+		btn.style.display = 'none';
+		btnOpen = btn;
+
+}
+
+function closeMenu(btn)
+{
+filterM.style.transform = 'translateX(-100%)';
+closeFilter.style.display = 'none';
+btnOpen.style.display = "flex";
+}
