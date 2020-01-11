@@ -89,3 +89,23 @@ let filter = data =>
 		}
 	}
 }
+function ramFilter(ram)
+{
+let VofRAM = ram.getAttribute('RAMS');
+let allSmarts = document.querySelectorAll('[ram=\''+VofRAM+'\']');
+	if(ram.checked == true)
+	{
+		for(let i = 0; i < allSmarts.length; i++)
+		{
+			allSmarts[i].style.display = "flex";
+		}
+	}
+	else
+	{
+		for(let i = 0; i < allSmarts.length; i++)
+		{
+			allSmarts[i].style.display = "none";
+		}
+
+	}
+}
