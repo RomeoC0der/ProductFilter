@@ -1,0 +1,181 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+*
+{
+	box-sizing: border-box;
+}
+p
+{
+	padding: 2px !important;
+	margin: 2px !important;
+	font-size: 1.3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 20vh;
+}
+.container-first-column
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+
+}
+.container-first-column img
+{
+	width: 100%;
+	max-width: 300px;
+}
+.container-second-column img
+{
+width: 100%;
+	max-width: 300px;
+}
+.container-third-column img
+{
+width: 100%;
+	max-width: 300px;
+}
+.container-second-column
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+}
+.container-third-column
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+}
+.container-first-column-row
+{
+	width: 30%;
+	padding: 5px;
+	box-shadow: 0px 0px 10px 5px  pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container-second-column-row
+{
+	width: 30%;
+	margin-top: 2vh;
+	padding: 5px;
+	box-shadow: 0px 0px 10px 5px  pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container-third-column-row
+{
+	width: 30%;
+	margin-top: 2vh;
+	padding: 5px;
+	box-shadow: 0px 0px 10px 5px  pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.icon
+{
+	max-width: 100% !important;
+	width: 1rem !important;
+	padding: 1px !important;
+	margin: 5px !important;
+}
+button
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+@media (max-width: 1454px)
+{
+	h2{
+		font-size: 1.3em;
+	}
+	p{
+		font-size: 1em;
+	}
+}
+@media(max-width: 1230px)
+{
+	h2{
+		font-size: 1.1em;
+	}
+	p{
+		font-size: 0.85em;
+	}
+}
+@media(max-width: 1050px)
+{
+	h2{
+		font-size: 0.9em;
+	}
+	p{
+		font-size: 0.75em;
+	}
+}
+*/
+.filter
+{
+	display: flex;
+	width: 10%;
+	height: 100vh;
+	background: gray;
+	flex-direction: column;
+	
+	align-items: center;
+	margin-top: 20vh;
+}
+.filter-body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.filter-body div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+input
+{
+	margin: 0;
+	padding: 0;
+}
+.main
+{
+	display: flex;
+	width: 100%;
+	position: relative;
+	flex-direction: row;
+}
